@@ -5,9 +5,10 @@
 // DECLARACION DE FUNCIONES
 void app_calculadora();
 void struct_Menu();
+void _subMenu();
 
 // DECLARACION DE VARIABLES
-int respuesta_menu;
+
 
 //FUNCION PRINCIPAL
 int main (){
@@ -16,7 +17,8 @@ int main (){
 
 //FUNCION MENU
 void struct_Menu(){
-
+  //DECLARACION DE VARIABLE LOCAL
+  int respuesta_menu = 0;
     // SE LE PREGUNTA AL USUARIO QUE DESEA HACER EL SWITCH LO LEEE Y REDIRIGIR
 
     printf("Que desea hacer?? \n");
@@ -27,6 +29,9 @@ void struct_Menu(){
     switch(respuesta_menu){
         case 1:
            app_calculadora();
+        break;
+        case 2:
+           _subMenu(respuesta_menu);
         break;
 
         default : printf("Respuesta no vailida");
@@ -73,4 +78,8 @@ void app_calculadora(){
           printf("Operacion no valida"); 
 
     }
+}
+void _subMenu(respuesta_menu){
+
+  
 }
