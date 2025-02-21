@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdin.h>
-#include <time.h>
 
 // DECLARACION DE FUNCIONES
 void app_calculadora();
@@ -8,7 +6,7 @@ void struct_Menu();
 void _subMenu();
 
 // DECLARACION DE VARIABLES
-
+int respuesta_menu
 
 //FUNCION PRINCIPAL
 int main (){
@@ -18,13 +16,12 @@ int main (){
 //FUNCION MENU
 void struct_Menu(){
   //DECLARACION DE VARIABLE LOCAL
-  int respuesta_menu = 0;
     // SE LE PREGUNTA AL USUARIO QUE DESEA HACER EL SWITCH LO LEEE Y REDIRIGIR
 
-    printf("Que desea hacer?? \n");
+    printf("Que desea hacer?? \n\n");
 
     printf("1- Calculadora");
-    scanf("&d", &respuesta_menu);
+    scanf("%d", &respuesta_menu);
 
     switch(respuesta_menu){
         case 1:
@@ -81,5 +78,5 @@ void app_calculadora(){
 }
 void _subMenu(respuesta_menu){
 
-  
+
 }
