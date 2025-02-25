@@ -5,6 +5,7 @@ void app_calculadora();
 void struct_Menu();
 void _subMenu();
 void contactos();
+void buscaminas();
 
 // DECLARACION DE VARIABLES
 int respuesta_menu
@@ -104,6 +105,26 @@ void _subMenu(respuesta_menu){
 
 }
 void contacto (){
+
+  int auxRecorrer;
+  int existeContacto;
+  do{
+    if(v_contacto[auxRecorrer] == NULL){
+      existeContacto = ;
+    }
+  }while(existeContacto = 1 || auxRecorrer > 100);
+
+  for(auxRecorrer = 0; auxRecorrer <= v_contacto[100]; auxRecorrer++){
+
+    if(v_contacto[auxRecorrer] =! NULL){
+     printf("Nombre: ", v_contacto[auxRecorrer].sc_name);
+     printf("Apellido: ", v_contacto[auxRecorrer].sc_surname);
+     printf("Telefono: ", v_contacto[auxRecorrer].sc_phone);
+     printf("\n\n");
+    }
+  }
+  
+  ////////////////
    char respuesta = "N/N";
 
    if(v_contacto[0] == NULL){
