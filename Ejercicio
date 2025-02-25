@@ -2,14 +2,12 @@ Algoritmo
 
 INICIO
 
-DEFINIR num1, num2, : ENTERO
+DEFINIR notas, auxNotas : REAL
+DEFINIR contador : ENTERO
 
-ESCRIBIR ("Ingrese el valor del primer numero")
-LEER num1
+ESCRIBIR("Desea anadir una nota S/N")
+()
 
-ESCRIBIR ("Ingrese el valor del segundo numero")
-LEER num2
-
-ESCRIBIR ("El resultado es: ", num1 + num 2)
 
 FIN
+
